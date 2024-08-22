@@ -9,21 +9,17 @@ This is a simple implementation of the classic arcade game "Asteroids." The game
 - **Classic Gameplay:** Experience the retro-style gameplay with modern enhancements.
 - **Smooth Controls:** Navigate your spaceship using intuitive keyboard controls.
 
-## Screenshots
-
-![Game Screenshot](screenshots/gameplay.png)
-
 ## Installation
 
 To run the game locally, follow these steps:
 
 1. **Create a Virtual Enviroment in your directory:**
-  For Windows:
+   For Windows:
    ```bash
    pygame -m venv
    source <venv>/bin/activate
    ```
-  For MacOS:
+   For MacOS:
    ```bash
    pygame3 -m venv venv
    source venv/bin/activate
@@ -36,17 +32,17 @@ To run the game locally, follow these steps:
    ```
   
 3. **Install Dependencies:**
-  Make sure you have the required libraries installed:
+   Make sure you have the required libraries installed:
    ```bash
    pip install -r requirements.txt
    ```
   
 4. **Run the Game:**
-  For Windows:
+   For Windows:
    ```bash
    python main.py
    ```
-  For MacOS:
+   For MacOS:
    ```bash
    python3 main.py
    ```
